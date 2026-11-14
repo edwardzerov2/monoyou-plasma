@@ -11,7 +11,7 @@ A collection of color schemes and themes for KDE Plasma and Konsole, built aroun
 
 | Component | Cold | Neutral | Warm |
 | --- | :---: | :---: | :---: |
-| [KDE Color Schemes](color-schemes/) | ✓ | ✓ | ✓ |
+| [Plasma Color Schemes](color-schemes/) | ✓ | ✓ | ✓ |
 | [Konsole Color Schemes](konsole/) | ✓ | ✓ | ✓ |
 
 

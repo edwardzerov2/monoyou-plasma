@@ -7,13 +7,13 @@ A collection of color schemes and themes for KDE Plasma and Konsole, built aroun
 >
 > MonoYou Plasma is currently under active development.
 > Visual elements, features and compatibility may change over time.
-
 ## Available Themes
 
-| Component | Variants |
-| --- | --- |
-| [KDE Color Schemes](color-schemes/) | Cold, Neutral, Warm |
-| [Konsole Color Schemes](konsole/) | Slate |
+| Component | Cold | Neutral | Warm |
+| --- | :---: | :---: | :---: |
+| [KDE Color Schemes](color-schemes/) | ✓ | ✓ | ✓ |
+| [Konsole Color Schemes](konsole/) | ✓ | ✓ | ✓ |
+
 
 ## Installation
 
@@ -45,7 +45,7 @@ Open **System Settings → Colors**, select your preferred MonoYou variant and a
 
 **Konsole**
 
-Open the profile editor, navigate to **Appearance** and select **MonoYou Slate**.
+Open the profile editor, navigate to **Appearance**, select your preferred MonoYou variant and apply it.
 
 ## Roadmap
 

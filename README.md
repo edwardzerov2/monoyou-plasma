@@ -1,28 +1,66 @@
 # MonoYou Plasma
 
-MonoYou color schemes and themes for KDE Plasma and Konsole.
+A collection of color schemes and themes for KDE Plasma and Konsole, built around the MonoYou color palettes.
 
-## Available
+> [!WARNING]
+> **Work in Progress (WIP)**
+>
+> MonoYou Plasma is currently under active development.
+> Visual elements, features and compatibility may change over time.
 
-- [KDE color schemes](color-schemes/) for MonoYou Neutral, Cold and Warm.
-- [MonoYou Slate](konsole/) for Konsole.
+## Available Themes
 
-To install the schemes for your user, run these commands from the project root.
+| Component | Variants |
+| --- | --- |
+| [KDE Color Schemes](color-schemes/) | Cold, Neutral, Warm |
+| [Konsole Color Schemes](konsole/) | Slate |
+
+## Installation
+
+### Manual Installation
+
+Clone the repository:
+
+```sh
+git clone https://github.com/edwardzerov2/monoyou-plasma.git
+cd monoyou-plasma
+```
+
+Install the color schemes for your user:
 
 ```sh
 data_dir="${XDG_DATA_HOME:-$HOME/.local/share}"
+
 mkdir -p "$data_dir/color-schemes" "$data_dir/konsole"
+
 cp color-schemes/*.colors "$data_dir/color-schemes/"
 cp konsole/*.colorscheme "$data_dir/konsole/"
 ```
 
-Select a KDE scheme under **System Settings → Colors**. In Konsole, open the profile editor and select **MonoYou Slate** under **Appearance**.
+### Applying the Themes
 
-## In development
+**KDE Plasma**
 
-- [Plasma desktop themes](plasma-themes/)
-- [Application styles](application-styles/)
-- [Window decorations](window-decorations/)
-- [Global themes](global-themes/)
+Open **System Settings → Colors**, select your preferred MonoYou variant and apply it.
 
-Screenshots and other images go in [assets/images/](assets/images/). GitHub configuration goes in [.github/](.github/).
+**Konsole**
+
+Open the profile editor, navigate to **Appearance** and select **MonoYou Slate**.
+
+## Roadmap
+
+- [x] KDE Color Schemes
+- [x] Konsole Color Schemes
+- [ ] [Plasma Desktop Themes](plasma-themes/)
+- [ ] [Application Styles](application-styles/)
+- [ ] [Window Decorations](window-decorations/)
+- [ ] [Global Themes](global-themes/)
+
+## Related Projects
+
+- [MonoYou Colors](https://github.com/edwardzerov2/monoyou-colors)
+- [MonoYou Folders](https://github.com/edwardzerov2/monoyou-folders)
+
+## Copyright
+
+Copyright (c) 2026 Eduardo Rod (edwardzerov2)

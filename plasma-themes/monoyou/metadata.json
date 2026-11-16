@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "serabali10050@gmail.com",
+                "Name": "Bali10050"
+            }
+        ],
+        "Category": "Plasma Theme",
+        "Description": "MonoYou desktop style for KDE Plasma, based on Darkly.",
+        "EnabledByDefault": true,
+        "Id": "monoyou",
+        "License": "GPLv2",
+        "Name": "MonoYou",
+        "Version": "0.1.9",
+        "Website": "https://github.com/edwardzerov2/monoyou-plasma"
+    },
+    "X-Plasma-API": "5.0"
+}

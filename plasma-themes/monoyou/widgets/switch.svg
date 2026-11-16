@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="38" viewBox="0 0 84 38">
+  <style id="current-color-scheme" type="text/css">
+    .ColorScheme-Text { color: #c0c4cc; }
+    .ColorScheme-Highlight { color: #7e9bd4; }
+    .ColorScheme-ViewBackground { color: #151619; }
+  </style>
+
+  <path id="inactive-left" class="ColorScheme-Text" fill="currentColor" fill-opacity=".18"
+        d="M 6,2 A 6,6 0 0 0 6,14 Z"/>
+  <rect id="inactive-center" class="ColorScheme-Text" fill="currentColor" fill-opacity=".18"
+        x="7" y="2" width="4" height="12"/>
+  <path id="inactive-right" class="ColorScheme-Text" fill="currentColor" fill-opacity=".18"
+        d="M 12,2 A 6,6 0 0 1 12,14 Z"/>
+
+  <path id="active-left" class="ColorScheme-Highlight" fill="currentColor"
+        d="M 6,19 A 6,6 0 0 0 6,31 Z"/>
+  <rect id="active-center" class="ColorScheme-Highlight" fill="currentColor"
+        x="7" y="19" width="4" height="12"/>
+  <path id="active-right" class="ColorScheme-Highlight" fill="currentColor"
+        d="M 12,19 A 6,6 0 0 1 12,31 Z"/>
+
+  <circle id="handle" class="ColorScheme-ViewBackground" fill="currentColor" cx="28" cy="9" r="8"/>
+  <g id="handle-hover">
+    <circle class="ColorScheme-ViewBackground" fill="currentColor" cx="46" cy="9" r="8"/>
+    <circle class="ColorScheme-Text" fill="currentColor" fill-opacity=".08" cx="46" cy="9" r="8"/>
+  </g>
+  <g id="handle-pressed">
+    <circle class="ColorScheme-ViewBackground" fill="currentColor" cx="64" cy="9" r="8"/>
+    <circle class="ColorScheme-Text" fill="currentColor" fill-opacity=".16" cx="64" cy="9" r="8"/>
+  </g>
+  <circle id="handle-focus" class="ColorScheme-Highlight" fill="none" stroke="currentColor"
+          stroke-width="1" cx="28" cy="26" r="7.5"/>
+  <circle id="handle-shadow" opacity="0" cx="46" cy="26" r="8"/>
+  <rect id="hint-stretch-borders" x="58" y="22" width="4" height="4"/>
+</svg>

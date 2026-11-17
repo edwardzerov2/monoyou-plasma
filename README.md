@@ -16,7 +16,7 @@ built around the three MonoYou color palettes: Cold, Neutral and Warm.
 | [Plasma Color Schemes](color-schemes/) | v1.0.0 | ✓ | ✓ | ✓ |
 | [Konsole Color Schemes](konsole/) | v1.0.0 | ✓ | ✓ | ✓ |
 | [Plasma Style](plasma-themes/monoyou/) | v0.1.9 | ✓ | ✓ | ✓ |
-| [Cursor Themes](cursor-themes/) | v0.1.2 | ✓ | ✓ | ✓ |
+| [Cursor Themes](cursor-themes/) | v0.1.3 | ✓ | ✓ | ✓ |
 
 Each component is versioned independently.
 
